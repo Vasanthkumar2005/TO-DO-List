@@ -1,0 +1,194 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.nav-links .btn {
+    background-color: #28a745;
+}
+
+.nav-links .profile-btn {
+    background-color: #ffc107;
+}
+
+.nav-links .logout-btn {
+    background-color: #dc3545;
+}
+
+.nav-links a:hover {
+    opacity: 0.8;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Task Status Colors */
+.pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.completed {
+    color: green;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.complete-btn {
+    background-color: #28a745;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Button Group: Ensures buttons are aligned properly */
+.button-group {
+    display: flex;
+    gap: 10px;  /* Space between buttons */
+    margin-bottom: 20px;
+}
+
+/* General Button Styling */
+.btn {
+    display: inline-block;
+    padding: 12px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Add Task Button */
+.btn {
+    background-color: #28a745;
+}
+
+.btn:hover {
+    background-color: #1e7e34;
+}
+
+/* Settings Button */
+.settings-btn {
+    background-color: #ff9800; /* Orange */
+}
+
+.settings-btn:hover {
+    background-color: #e68900; /* Darker Orange */
+}
+
+/* Logout Button */
+.logout-btn {
+    background-color: #dc3545;
+}
+
+.logout-btn:hover {
+    background-color: #b02a37;
+}
+
+.help-btn {
+    background-color: #28a745; /* Green color */
+}
+
+.help-btn:hover {
+    background-color: #218838;
+}
+
+/* Ensure the page takes up full height */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should expand to push footer down */
+.dashboard-container {
+    flex-grow: 1;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}

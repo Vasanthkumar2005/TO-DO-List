@@ -1,0 +1,41 @@
+/* Center the confirmation message */
+.delete-container {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8d7da;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Confirmation text */
+.delete-container h2 {
+    color: #721c24;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.cancel-btn {
+    background-color: #6c757d;
+}
+
+/* Hover Effects */
+.btn:hover {
+    opacity: 0.8;
+}
